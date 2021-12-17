@@ -14,7 +14,7 @@ int main()
 	cout << "Enter y ";
 	cin >> y;
 	c = x * (x - 20) + (3 * y) / (x);
-	cout << "Anser = " << c << endl;
+	cout << "Answer = " << c << endl;
 	system("pause");
 	return 0;
 }
