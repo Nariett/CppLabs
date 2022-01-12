@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\GitHub\CppLabs\Labs\Lab18\Part1\Source.cpp(62,12): warning C4129: L: неизвестная escape-последовательность
+C:\GitHub\CppLabs\Labs\Lab18\Part1\Source.cpp(62,12): warning C4129: P: неизвестная escape-последовательность
+C:\GitHub\CppLabs\Labs\Lab18\Part1\Source.cpp(62,12): warning C4129: : неизвестная escape-последовательность
+  Part1.vcxproj -> C:\GitHub\CppLabs\Labs\Debug\Part1.exe
