@@ -22,7 +22,7 @@ public:
 class carvan :public van
 {
 protected:
-	int num2, car;///////////////
+	int num2, car;
 public:
 	carvan(int n, int n2, int c) :van(n)
 	{
@@ -37,12 +37,12 @@ public:
 		cout << "Carvan Number " << num2 << "\nCapacity of car per van " << car << endl;
 	}
 };
-class oilvan :public van
+class tank :public van
 {
 protected:
 	int num3, oil;
 public:
-	oilvan(int n, int n3, int o) :van(n)
+	tank(int n, int n3, int o) :van(n)
 	{
 		num3 = n3;
 		oil = o;
@@ -51,7 +51,7 @@ public:
 	{
 		cout << "Iformation about the van " << endl;
 		van::show();
-		cout << "Oilvan number " << num3 << "\nCapacity in oilvan " << oil << endl;
+		cout << "Tank number " << num3 << "\nCapacity in Tank " << oil << endl;
 	}
 };
 int main()
@@ -60,7 +60,9 @@ int main()
 	SetConsoleCP(1251);
 	carvan x(12, 15, 55);
 	x.show();
-	oilvan* gaz = new oilvan(66, 22, 65);
+	tank* gaz = new tank(66, 22, 65);
 	gaz->show();
 	x.~carvan();
+	system("pause");
+	return 0;
 }
