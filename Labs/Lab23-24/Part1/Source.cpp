@@ -1,5 +1,6 @@
 #include <iostream>
 #include <Windows.h>
+#include<cmath>
 
 using namespace std;
 
@@ -33,14 +34,31 @@ public:
 	{
 		return this->x <= x & this->y <= x;
 	}
+	~point()
+	{}
 };
-//class square : public point
-//{
-//protected:
-//	int z, c;
-//public:
-//
-//};
+class cude :public point
+{
+protected:
+	int z, c;
+public:
+	cude(int x, int y, int z1, int c1) :point(x, y)
+	{
+		z = z1;
+		c = c1;
+	}
+	void show() override
+	{
+		point::show();
+		cout << "Ñoordinates z = " << z << " Ñoordinates c = " << c << endl;
+	}
+	double  sqare()
+	{
+		double r1;
+		r1 = sqrt(pow(z - x, 2) + pow(c - y, 2));
+		return r1;
+	}
+};
 int main()
 {
 	SetConsoleOutputCP(1251);
@@ -66,7 +84,9 @@ int main()
 	{
 		cout << "no" << endl;
 	}
-
-
-
+	cude q(12, 23, 45, 65);
+	q.show();
+	double p = 0;
+	p = q.sqare();
+	cout << p;
 }
