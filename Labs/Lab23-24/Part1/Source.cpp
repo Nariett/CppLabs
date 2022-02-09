@@ -3,7 +3,14 @@
 #include<cmath>
 
 using namespace std;
-
+class GH
+{
+protected:
+	int q = 0;
+	double g = 0;
+public:
+	virtual void show() = 0;
+};
 class point
 {
 protected:
