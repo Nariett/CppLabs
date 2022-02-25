@@ -38,6 +38,9 @@ namespace Part3 {
 	private: System::Windows::Forms::RadioButton^ radioButton1;
 	private: System::Windows::Forms::CheckBox^ checkBox1;
 	private: System::Windows::Forms::CheckBox^ checkBox2;
+	private: System::Windows::Forms::Label^ label2;
+	private: System::Windows::Forms::TextBox^ textBox4;
+	private: System::Windows::Forms::Button^ button3;
 
 	private:
 		System::ComponentModel::Container^ components;
@@ -57,6 +60,9 @@ namespace Part3 {
 			this->radioButton1 = (gcnew System::Windows::Forms::RadioButton());
 			this->checkBox1 = (gcnew System::Windows::Forms::CheckBox());
 			this->checkBox2 = (gcnew System::Windows::Forms::CheckBox());
+			this->label2 = (gcnew System::Windows::Forms::Label());
+			this->textBox4 = (gcnew System::Windows::Forms::TextBox());
+			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->groupBox1->SuspendLayout();
 			this->SuspendLayout();
 			// 
@@ -65,7 +71,7 @@ namespace Part3 {
 			this->label1->AutoSize = true;
 			this->label1->Location = System::Drawing::Point(257, 9);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(171, 13);
+			this->label1->Size = System::Drawing::Size(104, 13);
 			this->label1->TabIndex = 0;
 			this->label1->Text = L"Enter 2 real numbers";
 			// 
@@ -155,7 +161,7 @@ namespace Part3 {
 			this->checkBox1->AutoSize = true;
 			this->checkBox1->Location = System::Drawing::Point(468, 66);
 			this->checkBox1->Name = L"checkBox1";
-			this->checkBox1->Size = System::Drawing::Size(91, 17);
+			this->checkBox1->Size = System::Drawing::Size(75, 17);
 			this->checkBox1->TabIndex = 7;
 			this->checkBox1->Text = L"Developer";
 			this->checkBox1->UseVisualStyleBackColor = true;
@@ -166,17 +172,47 @@ namespace Part3 {
 			this->checkBox2->AutoSize = true;
 			this->checkBox2->Location = System::Drawing::Point(468, 90);
 			this->checkBox2->Name = L"checkBox2";
-			this->checkBox2->Size = System::Drawing::Size(61, 17);
+			this->checkBox2->Size = System::Drawing::Size(52, 17);
 			this->checkBox2->TabIndex = 8;
 			this->checkBox2->Text = L"Grout";
 			this->checkBox2->UseVisualStyleBackColor = true;
 			this->checkBox2->Click += gcnew System::EventHandler(this, &MyForm::checkBox2_Click);
 			// 
+			// label2
+			// 
+			this->label2->AutoSize = true;
+			this->label2->Location = System::Drawing::Point(565, 50);
+			this->label2->Name = L"label2";
+			this->label2->Size = System::Drawing::Size(10, 13);
+			this->label2->TabIndex = 9;
+			this->label2->Text = L" ";
+			// 
+			// textBox4
+			// 
+			this->textBox4->Location = System::Drawing::Point(568, 90);
+			this->textBox4->Name = L"textBox4";
+			this->textBox4->Size = System::Drawing::Size(100, 20);
+			this->textBox4->TabIndex = 10;
+			this->textBox4->MouseClick += gcnew System::Windows::Forms::MouseEventHandler(this, &MyForm::textBox4_MouseClick);
+			// 
+			// button3
+			// 
+			this->button3->Location = System::Drawing::Point(686, 88);
+			this->button3->Name = L"button3";
+			this->button3->Size = System::Drawing::Size(100, 23);
+			this->button3->TabIndex = 11;
+			this->button3->Text = L"Calculate";
+			this->button3->UseVisualStyleBackColor = true;
+			this->button3->Click += gcnew System::EventHandler(this, &MyForm::button7_Click);
+			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(682, 219);
+			this->ClientSize = System::Drawing::Size(798, 220);
+			this->Controls->Add(this->button3);
+			this->Controls->Add(this->textBox4);
+			this->Controls->Add(this->label2);
 			this->Controls->Add(this->checkBox2);
 			this->Controls->Add(this->checkBox1);
 			this->Controls->Add(this->groupBox1);
@@ -246,5 +282,41 @@ namespace Part3 {
 	private: System::Void checkBox2_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->Text = "Ò-091 ¹16";
 	}
-	};
+
+private: System::Void textBox4_MouseClick(System::Object^ sender, System::Windows::Forms::MouseEventArgs^ e) {
+}
+private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e) {
+	try
+	{
+		double a = Convert::ToDouble(this->textBox4->Text);
+		if (a > 0)
+		{
+			if ((int)a % 2 == 0)
+			{
+				label2->Text = "Greater than zero and even";
+			}
+			else
+			{
+				label2->Text = "Greater than zero and odd";
+			}
+		}
+		else
+		{
+			if ((int)a % 2 == 0)
+			{
+				label2->Text = "Less than zero and even";
+			}
+			else
+			{
+				label2->Text = "Less than zero and odd";
+			}
+		}
+	}
+	catch (System::FormatException^ e)
+	{
+		MessageBox::Show(e->Message->ToString(), "Data format error");
+		button2_Click(sender, System::EventArgs::Empty);
+	}
+}
+};
 }

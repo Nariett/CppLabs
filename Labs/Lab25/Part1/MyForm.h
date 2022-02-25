@@ -342,7 +342,7 @@ namespace Part1 {
 		catch (System::FormatException^ e)
 		{
 			MessageBox::Show(e->Message->ToString(), "Data format error");
-			button5_Click(sender, System::EventArgs::Empty);
+			button6_Click(sender, System::EventArgs::Empty);
 		}
 	}
 	private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
