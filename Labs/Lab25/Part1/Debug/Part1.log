@@ -1,6 +1,0 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets(77,5): warning : Процесс не может получить доступ к файлу "c:\github\cpplabs\labs\debug\part1.exe", так как этот файл используется другим процессом.
-  MyForm.cpp
-  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
-  Создание кода...
-  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
-  Part1.vcxproj -> C:\GitHub\CppLabs\Labs\Debug\Part1.exe

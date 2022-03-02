@@ -1,0 +1,7 @@
+﻿  MyForm.cpp
+C:\GitHub\CppLabs\Labs\Lab25\FormPart2\MyForm.h(125,10): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\GitHub\CppLabs\Labs\Lab25\FormPart2\MyForm.h(126,10): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Создание кода...
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  FormPart2.vcxproj -> C:\GitHub\CppLabs\Labs\Debug\FormPart2.exe

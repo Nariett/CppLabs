@@ -1,0 +1,6 @@
+﻿  MyForm.cpp
+C:\GitHub\CppLabs\Labs\Lab26\MyFormsx\MyForm.h(171,41): warning C4101: e: неиспользованная локальная переменная
+C:\GitHub\CppLabs\Labs\Lab26\MyFormsx\MyForm.h(175,35): warning C4101: e: неиспользованная локальная переменная
+C:\GitHub\CppLabs\Labs\Lab26\MyFormsx\MyForm.h(180,37): warning C4101: e: неиспользованная локальная переменная
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  MyFormsx.vcxproj -> C:\GitHub\CppLabs\Labs\Debug\MyFormsx.exe

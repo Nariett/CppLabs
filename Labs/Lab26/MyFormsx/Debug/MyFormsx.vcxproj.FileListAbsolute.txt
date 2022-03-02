@@ -1,0 +1,4 @@
+C:\GitHub\CppLabs\Labs\Lab26\MyFormsx\Debug\MyFormsx.vcxproj.AssemblyReference.cache
+C:\GitHub\CppLabs\Labs\Lab26\MyFormsx\Debug\MyFormsx.MyForm.resources
+C:\GitHub\CppLabs\Labs\Lab26\MyFormsx\Debug\MyFormsx.MyForm1.resources
+C:\GitHub\CppLabs\Labs\Lab26\MyFormsx\Debug\MyFormsx.vcxproj.GenerateResource.cache

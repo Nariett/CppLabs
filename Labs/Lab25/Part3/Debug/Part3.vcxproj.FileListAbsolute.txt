@@ -1,3 +1,0 @@
-C:\GitHub\CppLabs\Labs\Lab25\Part3\Debug\Part3.vcxproj.AssemblyReference.cache
-C:\GitHub\CppLabs\Labs\Lab25\Part3\Debug\Part3.MyForm.resources
-C:\GitHub\CppLabs\Labs\Lab25\Part3\Debug\Part3.vcxproj.GenerateResource.cache
