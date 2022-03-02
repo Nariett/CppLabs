@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets(77,5): warning : Процесс не может получить доступ к файлу "c:\github\cpplabs\labs\debug\part1.exe", так как этот файл используется другим процессом.
+  Source.cpp
+C:\GitHub\cpplabs\labs\Lab12\Part1\Source.cpp(60,6): error C2086: int counter: переопределение
+C:\GitHub\cpplabs\labs\Lab12\Part1\Source.cpp(9): message : см. объявление "counter"

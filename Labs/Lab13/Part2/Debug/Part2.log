@@ -1,5 +1,5 @@
 ﻿  Source.cpp
-C:\GitHub\CppLabs\Labs\Lab13\Part2\Source.cpp(19,20): warning C4018: <: несоответствие типов со знаком и без знака
-C:\GitHub\CppLabs\Labs\Lab13\Part2\Source.cpp(33,40): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
-C:\GitHub\CppLabs\Labs\Lab13\Part2\Source.cpp(42,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\GitHub\cpplabs\labs\Lab13\Part2\Source.cpp(19,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\GitHub\cpplabs\labs\Lab13\Part2\Source.cpp(33,40): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+C:\GitHub\cpplabs\labs\Lab13\Part2\Source.cpp(42,20): warning C4018: <: несоответствие типов со знаком и без знака
   Part2.vcxproj -> C:\GitHub\CppLabs\Labs\Debug\Part2.exe

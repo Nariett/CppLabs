@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets(77,5): warning : Процесс не может получить доступ к файлу "c:\github\cpplabs\labs\debug\part1.pdb", так как этот файл используется другим процессом.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets(77,5): warning : Процесс не может получить доступ к файлу "c:\github\cpplabs\labs\debug\part1.exe", так как этот файл используется другим процессом.
+  Source.cpp
+C:\GitHub\cpplabs\labs\Lab9\Part1\Source.cpp(10,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Part1.vcxproj -> C:\GitHub\CppLabs\Labs\Debug\Part1.exe

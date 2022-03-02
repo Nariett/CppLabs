@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\GitHub\cpplabs\labs\Lab8\Part3\Source.cpp(10,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\GitHub\cpplabs\labs\Lab8\Part3\Source.cpp(11,9): warning C4101: iMax: неиспользованная локальная переменная
+  Part3.vcxproj -> C:\GitHub\CppLabs\Labs\Debug\Part3.exe

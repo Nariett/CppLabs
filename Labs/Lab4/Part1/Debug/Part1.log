@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\GitHub\cpplabs\labs\Lab4\Part1\Source.cpp(24,19): warning C4804: <=: небезопасное использование типа "bool" в операции
+C:\GitHub\cpplabs\labs\Lab4\Part1\Source.cpp(12,6): warning C4101: p: неиспользованная локальная переменная
+LINK : fatal error LNK1104: не удается открыть файл "C:\GitHub\CppLabs\Labs\Debug\Part1.exe"

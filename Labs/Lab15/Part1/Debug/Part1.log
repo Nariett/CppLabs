@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets(77,5): warning : Процесс не может получить доступ к файлу "c:\github\cpplabs\labs\debug\part1.pdb", так как этот файл используется другим процессом.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets(77,5): warning : Процесс не может получить доступ к файлу "c:\github\cpplabs\labs\debug\part1.exe", так как этот файл используется другим процессом.
+  Source.cpp
+C:\GitHub\cpplabs\labs\Lab15\Part1\Source.cpp(81): error C4700: использована неинициализированная локальная переменная "c"

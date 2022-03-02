@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\GitHub\cpplabs\labs\Lab20\Part1\Source.cpp(56): warning C4715: wear::Setmass: значение возвращается не при всех путях выполнения
+LINK : fatal error LNK1104: не удается открыть файл "C:\GitHub\CppLabs\Labs\Debug\Part1.exe"

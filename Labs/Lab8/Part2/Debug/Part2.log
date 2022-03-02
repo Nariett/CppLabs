@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\GitHub\cpplabs\labs\Lab8\Part2\Source.cpp(10,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\GitHub\cpplabs\labs\Lab8\Part2\Source.cpp(43,17): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+LINK : fatal error LNK1104: не удается открыть файл "C:\GitHub\CppLabs\Labs\Debug\Part2.exe"

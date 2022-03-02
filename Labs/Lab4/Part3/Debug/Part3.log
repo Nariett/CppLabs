@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\GitHub\cpplabs\labs\Lab4\Part3\Source.cpp(20,25): warning C4554: "|": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+  Part3.vcxproj -> C:\GitHub\CppLabs\Labs\Debug\Part3.exe

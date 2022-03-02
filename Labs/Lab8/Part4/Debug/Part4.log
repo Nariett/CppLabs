@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\GitHub\cpplabs\labs\Lab8\Part4\Source.cpp(61,14): warning C4154: удаление массива; выполнено преобразование к указателю
+  Part4.vcxproj -> C:\GitHub\CppLabs\Labs\Debug\Part4.exe
