@@ -1,0 +1,5 @@
+C:\GitHub\CppLabs\Labs\Lab29\TablForm\Debug\TablForm.vcxproj.ResolveComReference.cache
+C:\GitHub\CppLabs\Labs\Lab29\TablForm\Debug\TablForm.vcxproj.AssemblyReference.cache
+C:\GitHub\CppLabs\Labs\Lab29\TablForm\Debug\TablForm.MyForm.resources
+C:\GitHub\CppLabs\Labs\Lab29\TablForm\Debug\TablForm.vcxproj.GenerateResource.cache
+C:\GitHub\CppLabs\Labs\Lab29\TablForm\Debug\TablForm.vcxproj.CopyComplete

@@ -1,0 +1,9 @@
+﻿  COM-ссылка "WMPLib.1.0" является сборкой взаимодействия для элемента ActiveX "AxWMPLib.1.0", но была помечена на компоновку компилятором флагом /link. Эта COM-ссылка будет считаться ссылкой и не будет скомпонована.
+  MyForm.cpp
+C:\GitHub\CppLabs\Labs\Lab29\TablForm\MyForm.h(44,66): warning C4947: Microsoft::VisualBasic::Compatibility::VB6::FileListBox: помечен как устаревший
+C:\GitHub\CppLabs\Labs\Lab29\TablForm\MyForm.h(44,66): message : Сообщение: "Microsoft.VisualBasic.Compatibility.* classes are obsolete and supported within 32 bit processes only. http://go.microsoft.com/fwlink/?linkid=160862"
+C:\GitHub\CppLabs\Labs\Lab29\TablForm\MyForm.h(81,1): warning C4947: Microsoft::VisualBasic::Compatibility::VB6::FileListBox: помечен как устаревший
+C:\GitHub\CppLabs\Labs\Lab29\TablForm\MyForm.h(81,1): message : Сообщение: "Microsoft.VisualBasic.Compatibility.* classes are obsolete and supported within 32 bit processes only. http://go.microsoft.com/fwlink/?linkid=160862"
+C:\GitHub\CppLabs\Labs\Lab29\TablForm\MyForm.h(267,46): warning C4101: e: неиспользованная локальная переменная
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  TablForm.vcxproj -> C:\GitHub\CppLabs\Labs\Debug\TablForm.exe
