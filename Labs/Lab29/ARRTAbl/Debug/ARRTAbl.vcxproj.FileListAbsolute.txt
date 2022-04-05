@@ -1,0 +1,4 @@
+C:\GitHub\CppLabs\Labs\Lab29\ARRTAbl\Debug\ARRTAbl.vcxproj.AssemblyReference.cache
+C:\GitHub\CppLabs\Labs\Lab29\ARRTAbl\Debug\ARRTAbl.MyForm.resources
+C:\GitHub\CppLabs\Labs\Lab29\ARRTAbl\Debug\ARRTAbl.vcxproj.GenerateResource.cache
+C:\GitHub\CppLabs\Labs\Lab29\ARRTAbl\Debug\ARRTAbl.vcxproj.CopyComplete
